@@ -1,0 +1,15 @@
+void setup ()
+{
+  pinMode  (2,OUTPUT); // on déclare le digital pin 2 comme sortie 
+  // c'est a cette broche que la base du transistor est relié
+}
+
+
+void loop ()
+{
+
+  digitalWrite (2,HIGH);  // on allume la LED 
+  delay (1000);          // on attend une seconde
+  digitalWrite (2, LOW); // on éteint la LED 
+  delay (1000);         // on attend une seconde
+}
